@@ -1,1 +1,2620 @@
-/* Empty theme in order to reset to the default look. */
+/* @source https://userstyles.org/styles/152412/dark-web-whatsapp-theme */
+
+
+header.pane-header
+{
+background-color: #2d2d2d !important;
+}
+
+#wrapper:before
+{
+background-color: #5b5b5b !important;
+}
+
+body
+{
+background-image: -webkit-linear-gradient(top, #5b5b5b, #5b5b5b) !important;
+font-family: 'Roboto Light', sans-serif !important;
+color: #fff;
+}
+
+.pane-chat-footer
+{
+background-color: #323232 !important;
+}
+
+.chat-drag-cover>.chat,
+.contact.chat
+{
+background-color: #222222 !important;
+color: lightgray;
+}
+
+.pane-list-body
+{
+background-color: #323232 !important;
+}
+
+.chatlist .chat:after,
+.chatlist .location:after
+{
+border-bottom: 1px solid #323232 !important;
+}
+
+.subheader-search
+{
+background-color: #323232 !important;
+}
+
+.cont-input-search
+{
+background-color: #323232 !important;
+border: 1px solid #898989 !important;
+}
+
+.gif-search-row-input,
+.input.input.input-search
+{
+background-color: #323232 !important;
+}
+
+.cont-input-search .input-placeholder
+{
+color: #898989 !important;
+}
+
+.subheader-search.active .cont-input-search
+{
+border-color: #323232 !important;
+}
+
+.pane-intro
+{
+background-color: #323232 !important;
+}
+
+.pane-intro:after
+{
+border-top: 6px solid #323232 !important;
+}
+
+.chat-title
+{
+color: #fff !important;
+font-weight: bold !important;
+}
+
+.chat-status
+{
+color: #d5d5d5 !important;
+}
+
+.chat-time
+{
+color: #898989 !important;
+font-size: 10px !important;
+}
+
+.chatlist .active.location,
+.chatlist .chat.active
+{
+background-color: #2d2d2d !important;
+border-bottom: 1px solid #2d2d2d !important;
+}
+
+.chatlist .chat:hover,
+.chatlist .location:hover
+{
+background-color: #2d2d2d !important;
+border-bottom: 0px solid #2d2d2d !important;
+}
+
+.chatlist .chat:hover:before,
+.chatlist .location:hover:before
+{
+background-color: #2d2d2d !important;
+}
+
+.chatlist .active.location:before,
+.chatlist .chat.active:before
+{
+background-color: #2d2d2d !important;
+}
+
+.drawer-container-right,
+.pane-chat
+{
+background-image: url("data:") !important;
+background-color: #323232 !important;
+}
+
+.pane-chat-header:after
+{
+background-color: #2D2D2D;
+border-bottom: 0px solid #323232 !important;
+}
+
+.subheader-search:after
+{
+background-color: #323232;
+border-bottom: 1px solid #323232 !important;
+}
+
+/* Message out and in background colors */
+.message-out
+{
+background-color: #8e8e8e !important;
+}
+
+.message-in
+{
+background-color: #8e8e8e !important;
+}
+
+.document-meta,
+.message-text
+{
+color: #FFF !important;
+}
+
+.message-datetime
+{
+color: #646464 !important;
+}
+
+#pane-main
+{
+padding-left: 30px !important;
+padding-right: 30px !important;
+}
+
+.input
+{
+color: #e1e1e1 !important;
+}
+
+/* Styling for Text input field */
+.block-compose .input-container,
+html[dir] ._1Plpp
+{
+background-color: #202020 !important;
+border-color: #4b4b4b !important;
+}
+
+.dropdown
+{
+background-color: #2d2d2d !important;
+}
+
+.dropdown .menu-item a
+{
+color: #898989 !important;
+}
+
+.dropdown .menu-item a:hover
+{
+background-color: #323232 !important;
+}
+
+.menu-tabs-emoji
+{
+background-color: #2d2d2d !important;
+}
+
+.menu-tabs-emoji:before
+{
+background-color: #e7e7e7 !important;
+}
+
+.infinite-list.chatlist
+{
+background-color: #323232 !important;
+}
+
+.list-title
+{
+background-color: #2d2d2d !important;
+color: #898989 !important;
+}
+
+.chat-title
+{
+color: #fff !important;
+}
+
+.header-title
+{
+color: #898989 !important;
+}
+
+.drawer-body
+{
+background-color: #323232 !important;
+}
+
+.drawer-container.drawer-container-left.drawer-container-panel
+{
+margin-left: -1px !important;
+}
+
+.app.three
+{
+background-color: #323232 !important;
+}
+
+.drawer-section.well.animate-enter
+{
+background-color: #2d2d2d !important;
+}
+/* .drawer-section-expand.well.animate-enter {background-color:  #2d2d2d !important;} */
+
+.drawer-section-title
+{
+color: #fff !important;
+}
+
+.drawer-section-title .col-side
+{
+color: #fff !important;
+}
+
+.drawer-value
+{
+color: #898989 !important;
+}
+
+.drawer-profile .drawer-header
+{
+background-color: #2d2d2d !important;
+}
+
+.drawer-title
+{
+color: #898989 !important;
+}
+
+.chatlist .is-unread .chat-title,
+.chatlist .is-unread .header-title,
+.chatlist .is-unread .location-main,
+.chatlist .unread .chat-title,
+.chatlist .unread .header-title,
+.chatlist .unread .location-main
+{
+color: #2b2b2b !important;
+}
+
+.chatlist .is-unread .chat-status,
+.chatlist .is-unread .header-secondary,
+.chatlist .is-unread .location-secondary,
+.chatlist .unread .chat-status,
+.chatlist .unread .header-secondary,
+.chatlist .unread .location-secondary
+{
+color: #898989 !important;
+}
+
+.chatlist .active.location:hover,
+.chatlist .chat.active:hover
+{
+background-color: #2d2d2d !important;
+border-bottom: 1px solid #2d2d2d !important;
+}
+
+.chatlist .active.location:hover:before,
+.chatlist .chat.active:hover:before
+{
+background-color: #2d2d2d !important;
+}
+
+.media-panel
+{
+background-color: #323232 !important;
+}
+
+.media-chat .chat-main,
+.media-chat .header-main
+{
+color: #fff !important;
+}
+
+.chat:hover:not(.active),
+.location:hover:not(.active)
+{
+background-color: #323232 !important;
+}
+
+.app-wrapper::before
+{
+background-color: #5b5b5b !important;
+}
+
+.media-collection>span
+{
+background-color: #2d2d2d !important;
+}
+
+.drawer-media .drawer-body
+{
+background-color: #323232 !important;
+}
+
+.chat.active .active.location,
+.chat.active .chat-status,
+.chat.active .header-secondary,
+.chat.active .location-secondary
+{
+color: #d5d5d5 !important;
+}
+
+.chat-status.ellipsify
+{
+color: #d5d5d5 !important;
+}
+
+.block-compose .input-container.disabled
+{
+background-color: #696969 !important;
+}
+
+.media-panel .btn-round
+{
+background-color: #2d2d2d !important;
+}
+
+.menu-tabs-emoji:before
+{
+background-color: #323232 !important;
+}
+
+#window
+{
+background-color: #2D2D2D !important;
+}
+
+#platforms
+{
+background-color: #2D2D2D !important;
+}
+
+.entry-title
+{
+color: #d5d5d5 !important;
+}
+
+.entry-subtitle
+{
+color: #d5d5d5 !important;
+}
+
+.entry-controls
+{
+color: #d5d5d5 !important;
+}
+
+.entry-platform
+{
+color: #d5d5d5 !important;
+}
+
+.qrcode
+{
+border-width: 5px !important;
+border-style: solid !important;
+border-color: white !important;
+}
+
+.app
+{
+background-image: url("data:") !important;
+background-color: #323232 !important;
+}
+
+.backdrop
+{
+background-color: #323232 !important;
+}
+
+.popup
+{
+background-color: #2d2d2d !important;
+}
+
+.popup-title
+{
+color: #898989 !important;
+}
+
+.popup-body
+{
+color: #898989 !important;
+}
+
+select
+{
+color: #898989 !important;
+background-color: #2d2d2d !important;
+}
+
+.toast
+{
+background-color: #2d2d2d !important;
+color: #898989 !important;
+}
+
+.backdrop-transparent
+{
+background-color: #323232 !important;
+}
+
+.header-secondary
+{
+color: #898989 !important;
+}
+
+.drawer .chatlist
+{
+background-color: #323232 !important;
+}
+
+.message-out .audio-track::-webkit-slider-runnable-track
+{
+background-color: #323232 !important;
+}
+
+.message-in .audio-track::-webkit-slider-runnable-track
+{
+background-color: #323232 !important;
+}
+
+.message-out .audio-state-played .audio-progress
+{
+background-color: #989898 !important;
+}
+
+.message-in .audio-state-played .audio-progress
+{
+background-color: #989898 !important;
+}
+
+.message-out .audio-state-played .audio-track::-webkit-slider-thumb
+{
+background-color: #989898 !important;
+}
+
+.message-in .audio-state-played .audio-track::-webkit-slider-thumb
+{
+background-color: #989898 !important;
+}
+
+.message-in .audio-state-default .audio-track::-webkit-slider-thumb
+{
+background-color: #989898 !important;
+}
+
+.message-out .audio-state-default .audio-track::-webkit-slider-thumb
+{
+background-color: #989898 !important;
+}
+
+.message-out .audio-state-default .audio-progress
+{
+background-color: #989898 !important;
+}
+
+.message-in .audio-state-default .audio-progress
+{
+background-color: #989898 !important;
+}
+
+.media-viewer
+{
+background-color: #323232 !important;
+}
+
+.media-content .btn-round
+{
+background-color: #2d2d2d !important;
+}
+
+.intro-title
+{
+font-size: 28px !important;
+}
+
+.intro-text
+{
+font-size: 12px !important;
+}
+/*.meta-audio {
+font-size: 10px!important;
+}
+.bubble-audio .preview {
+width: 50px !important;
+height: 50px !important;
+}
+.message-out .audio-status {
+left: 44px !important;
+bottom: 1px !important;
+}
+.message-out .bubble-audio .wrapper {
+min-height: 38px !important;
+}
+.message-out .audio {
+margin-right: 7px !important;
+margin-left: 8px !important;
+padding-top: 4px !important;
+}
+.message-in .audio-status {
+right: 44px !important;
+bottom: 1px !important;
+}
+.message-in .bubble-audio .wrapper {
+min-height: 38px!important;
+}
+.message-in .audio {
+margin-right: 7px !important;
+margin-left: 8px !important;
+padding-top: 7px !important;
+} */
+
+.message-meta
+{
+font-size: 10px !important;
+}
+
+.message-text
+{
+font-size: 12.6px !important;
+}
+
+.chat-status,
+.header-secondary,
+.location-secondary
+{
+font-size: 13px !important;
+}
+
+.chatlist .avatar
+{
+width: 45px !important;
+height: 45px !important;
+}
+
+/* .app-wrapper {
+min-width: 745px !important;
+min-height: 300px !important;
+} */
+
+.chat-title,
+.header-title,
+.location-main,
+.drawer-title-body
+{
+font-size: 14px !important;
+}
+
+.chat-status,
+.header-secondary,
+.location-secondary
+{
+font-size: 12px !important;
+}
+
+.header-secondary,
+.pane-chat-header .chat-status,
+.pane-chat-header .header-secondary,
+.pane-chat-header .location-secondary
+{
+font-size: 12px !important;
+}
+
+.viewport
+{
+height: 100% !important;
+}
+
+a.button.button-contact
+{
+color: rgb(137, 137, 137) !important;
+}
+
+.col-main
+{
+color: #898989;
+}
+
+.input-line
+{
+background-color: transparent !important;
+}
+
+.message-in .btn-context
+{
+background-color: rgba(41, 41, 41, 0.13);
+}
+
+.message-out .btn-context
+{
+background-color: rgba(41, 41, 41, 0.13);
+}
+
+.message .btn-context
+{
+height: 18px;
+}
+
+.three .pane-chat-header
+{
+border-left: 1px solid #2d2d2d;
+}
+
+.pane-chat-header
+{
+border-left: 1px solid #2d2d2d;
+}
+
+.pane-chat-body
+{
+background-color: #1b1b1b !important;
+border-left: 1px solid #323232;
+}
+
+.pane-intro
+{
+border-left: 1px solid #323232;
+}
+
+.pane-chat-footer
+{
+border-left: 1px solid #323232;
+}
+
+.three .pane-chat-header
+{
+border-right: 1px solid #2d2d2d;
+}
+
+.three .pane-chat-footer
+{
+border-right: 1px solid #323232;
+}
+
+.three .pane-chat-body
+{
+box-shadow: inset -1px 0 0 #323232;
+}
+
+.message-out .btn-context:after
+{
+background: -webkit-linear-gradient(left, transparent, rgba(41, 41, 41, 0.13));
+background: linear-gradient(to right, transparent, rgba(75, 75, 75, 0.13));
+}
+
+.message-in .btn-context:after
+{
+background: -webkit-linear-gradient(left, transparent, rgba(41, 41, 41, 0.13));
+background: linear-gradient(to right, transparent, rgba(75, 75, 75, 0.13));
+}
+
+.message .btn-context:after
+{
+height: 18px;
+}
+
+.pane-chat-tile-container
+{
+background: transparent!important;
+}
+
+.pane-chat-tile
+{
+background-image: url(data:)!important;
+}
+
+.app-wrapper::after
+{
+background-color: #2d2d2d !important;
+opacity: 0.72;
+}
+
+.round:after
+{
+background: url(data:) center center no-repeat !important;
+}
+
+.popup .text-tip a,
+.popup .text-tip
+{
+color: #898989 !important;
+}
+
+.drawer-header-small
+{
+background-color: #2d2d2d !important;
+}
+
+.drawer-blocked .list-action
+{
+background-color: #323232 !important;
+color: #898989;
+}
+
+.list-action
+{
+border-bottom: 1px solid #323232;
+}
+
+.drawer-header-popup
+{
+background-color: #2d2d2d;
+}
+
+.drawer
+{
+background-color: #2d2d2d;
+}
+
+.drawer .menu-tabs-lists
+{
+background-color: #2d2d2d;
+}
+
+.menu-tabs-lists:before
+{
+background-color: #60e86f;
+}
+
+.drawer .menu-tabs-lists .menu-item
+{
+color: #898989;
+}
+
+.drawer .menu-tabs-lists .menu-item.active
+{
+color: #898989;
+}
+
+.menu-tabs-marker
+{
+background-color: #60e86f;
+}
+
+.chatlist .is-unread .chat-title,
+.chatlist .is-unread .header-title,
+.chatlist .is-unread .location-main,
+.chatlist .unread .chat-title,
+.chatlist .unread .header-title,
+.chatlist .unread .location-main
+{
+color: #fff !important;
+}
+
+.drawer-header-offset
+{
+background-color: #2d2d2d !important;
+}
+
+.context.context-out
+{
+background: rgba(220, 248, 198, 0);
+}
+
+.context.context-in
+{
+background: rgba(220, 248, 198, 0);
+}
+
+.drawer-section.well-simple-body,
+.media-collection,
+.gif-search-gif-wrapper,
+.well-simple,
+.well
+{
+background-color: #222;
+}
+
+.icon.icon-back-light,
+.icon-broadcast-light,
+.icon-camera-light,
+.icon-checkmark-light,
+.icon-checkmark-light-l,
+.icon-connection-l-light,
+.icon-forward-light,
+.icon-gps-light,
+.icon-msg-audio-light,
+.icon-msg-check-light,
+.icon-msg-dblcheck-ack-light,
+.icon-msg-dblcheck-light,
+.icon-msg-time-light,
+.icon-msg-video-light,
+.icon-refresh-l-light,
+.icon-refresh-light,
+.icon-search-light,
+.icon-send-light,
+.icon-star-light,
+.icon-x-alt-light,
+.icon-x-light,
+.icon-search-morph
+{
+-webkit-filter: none !important;
+filter: none !important;
+}
+
+.gif-search-container,
+.message-list
+{
+background-color: #1b1b1b !important;
+}
+
+header.pane-header
+{
+background-color: #4c4c4c !important;
+}
+
+.drawer-header-small
+{
+background-color: #4c4c4c !important;
+}
+
+.message-in .document-body,
+.media-thumb,
+.media-thumb > .btn-fill,
+.link-preview-container,
+.avatar-picker-controls,
+.message-system-body,
+.media-content .btn-round,
+.btn-more,
+.incoming-msgs,
+.butterbar
+{
+background-color: #696969 !important;
+}
+
+.media-thumb > .btn-fill
+{
+color: lightgray;
+}
+
+.title,
+.invalid-media,
+.chat-time-title,
+.textfield-static,
+.button-contact,
+.message-system-body,
+.butterbar-text,
+.butterbar-title
+{
+color: lightgray !important;
+}
+
+.label-text
+{
+color: gray !important;
+}
+
+.media-content .media-caption
+{
+color: white;
+}
+
+.app-wrapper
+{
+background-color: black !important;
+}
+
+.pane-intro
+{
+background-color: #1b1b1b !important;
+}
+
+.pane-chat-empty,
+._9tCEa
+{
+background-color: #1b1b1b !important;
+}
+
+.more
+{
+background-color: #1b1b1b !important;
+}
+
+#startup
+{
+background-color: black !important;
+}
+
+.block-compose
+{
+background-color: #323232;
+}
+
+/* Chatbox Tails */
+.message-out>div>.tail-container
+{
+background-image: url("https://i.imgur.com/R8ojSIy.png") !important;
+}
+
+.message-in>div>.tail-container
+{
+background-image: url("https://i.imgur.com/CQiUp9A.png") !important;
+}
+
+.multi-controls
+{
+transform: translateY(0px);
+background-color: #323232;
+color: #989898;
+}
+
+.chatlist-panel-body
+{
+background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+width: 8px;
+height: 8px;
+}
+
+::-webkit-scrollbar-button
+{
+width: 0px;
+height: 0px;
+}
+
+::-webkit-scrollbar-thumb
+{
+background: #8c8c8c;
+border: 0px none #fff;
+border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+background: #8c8c8c;
+}
+
+::-webkit-scrollbar-thumb:active
+{
+background: #8c8c8c;
+}
+
+::-webkit-scrollbar-track
+{
+background: #666;
+border: 0px none #fff;
+border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover
+{
+background: #666;
+}
+
+::-webkit-scrollbar-track:active
+{
+background: #666;
+}
+
+::-webkit-scrollbar-corner
+{
+background: transparent;
+}
+
+.app-wrapper-web .app
+{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+top: 0px;
+border-radius: 3px;
+}
+
+.msg-unread
+{
+background-color: rgba(85,85,85,0.25);
+}
+
+.msg-unread-body
+{
+color: #fff;
+background-color: #4d4d4d;
+}
+
+.intro
+{
+background-color: transparent;
+}
+
+.message-text strong,
+.media-caption strong
+{
+color: #fff;
+}
+
+.compose-popup-panel,
+.btn-background
+{
+background-color: #2d2d2d;
+}
+
+.chatlist-panel-search,
+input
+{
+background-color: transparent!important;
+}
+
+.pane-chat-header-subtitle
+{
+color: rgba(245, 245, 245, 0.6);
+}
+
+.message-system
+{
+background-color: #666;
+}
+
+.chat-meta
+{
+color: rgba(232, 231, 231, 0.4);
+}
+
+.chatlist .chat-body, .chatlist .header-body
+{
+border: 0px;
+}
+
+.section-header
+{
+background-color: transparent;
+}
+
+.list-search .input-search
+{
+color: #FFF;
+}
+
+.chatlist .chat:hover:after, .chatlist .chat.hover:after, .chatlist .chat.active:after, .chatlist .chat.active:after
+{
+border-top-color: #505050;
+}
+
+.message-text, .media-caption, .document-body, .dropdown-item-action
+{
+color: #d3d3d3;
+}
+
+.dropdown-item-hover .dropdown-item-action
+{
+color: #333;
+}
+
+.message-system
+{
+color: rgba(255, 255, 255, 0.95);
+text-shadow: none;
+}
+
+.list-action
+{
+background-color: #222;
+}
+
+.list-action:hover
+{
+background-color: #2c2c2c;
+}
+
+.drawer-section.well, .well, .well-simple, .well-chat, .multi-vcard-dialog-contact
+{
+background-color: #222;
+}
+
+.audio-duration
+{
+color: rgba(245, 245, 245, 0.6);
+}
+
+.chat-subtitle.chat-subtitle-header
+{
+color: rgba(245, 245, 245, 0.8);
+}
+
+.chatlist-panel .chatlist-panel-body
+{
+background-color: transparent;
+}
+
+.Gd51Q._3sgkv
+{
+color: inherit;
+}
+
+html[dir=ltr] ._1i1U7.jZ4tp
+{
+background: transparent!important;
+}
+
+html[dir=rtl] ._1i1U7.jZ4tp
+{
+background: transparent!important;
+}
+
+html[dir=ltr] ._1i1U7._2DNgV
+{
+background: transparent!important;
+}
+
+html[dir=rtl] ._1i1U7._2DNgV
+{
+background: transparent!important;
+}
+
+html[dir] .L89LI
+{
+background-color: #666;
+color: #FFF;
+}
+
+.header-title,
+.emoji-input.emoji-input-text-large .emoji-input-body
+{
+color: #c6c6c6 !important;
+}
+
+.pane-chat-header:after
+{
+z-index: -1;
+}
+
+html[dir] ._1mq8g
+{
+background-color: transparent;
+border-top: 0px;
+}
+
+.mentions-positioning-container
+{
+color: #333;
+}
+
+html[dir] ._3qlW9,
+html[dir] ._1CkkN,
+html[dir] ._1AKfk,
+.drawer-chat-search .chatlist-panel-body,
+html[dir] ._2uLFU,
+html[dir] ._1ArIP,
+html[dir] ._1CRb5
+{
+background-color: #222;
+}
+
+.chat-body, .header-body
+{
+border-top: 0px;
+}
+
+.chat:hover:after, .chat.hover:after, .chat.active:after, .chat.active:after
+{
+border-top-color: #666;
+}
+
+.iYPsH,
+._3LL06,
+._1DZAH,
+html[dir=ltr] ._2dGjP
+{
+color: #c2c2c2;
+}
+
+html[dir=ltr] ._28zBA._14ou2
+{
+background-color: #333;
+}
+
+html[dir] ._1CkkN:hover
+{
+background-color: #3c3c3c;
+}
+
+html[dir] ._2iSIf
+{
+background-color: #09d261;
+color: black;
+}
+
+html[dir] .gQzdc._3sdhb
+{
+background-color: #2d2d2d;
+}
+
+/* Background Color Quotes */
+._27BA_
+{
+background-color: #696969 !important;
+}
+
+._3RNTQ
+{
+background-color: #696969 !important;
+}
+
+._3EFt_
+{
+color: #262626 !important;
+}
+
+.jN-F5
+{
+color: white !important;
+}
+
+._2MSJr
+{
+background-color: #2d2d2d !important;
+}
+
+
+/* Send and Received Document styling */
+.icon-doc,
+.icon-doc-generic
+{
+background-image: url("https://i.imgur.com/Ul0QRY5.png") !important;
+}
+
+.icon-doc-xls
+{
+background-image: url("https://i.imgur.com/ulXpCkO.png") !important;
+}
+
+.icon-doc-pdf
+{
+background-image: url("https://i.imgur.com/NVMPHpU.png") !important;
+}
+
+.icon-doc-doc
+{
+background-image: url("https://i.imgur.com/X1LA7s7.png") !important;
+}
+
+path[d="M17 2c8.3 0 15 6.7 15 15s-6.7 15-15 15S2 25.3 2 17 8.7 2 17 2m0-1C8.2 1 1 8.2 1 17s7.2 16 16 16 16-7.2 16-16S25.8 1 17 1z"]
+{
+fill: rgb(0, 0, 0) !important;
+fill-opacity: 0.8 !important;
+}
+
+path[d="M22.4 17.5h-3.2v-6.8c0-.4-.3-.7-.7-.7h-3.2c-.4 0-.7.3-.7.7v6.8h-3.2c-.6 0-.8.4-.4.8l5 5.3c.5.7 1 .5 1.5 0l5-5.3c.7-.5.5-.8-.1-.8z"]
+{
+fill: rgb(0, 0, 0) !important;
+fill-opacity: 0.8 !important;
+}
+
+._1vKRe
+{
+background-color: #2d2d2d !important;
+}
+
+
+/* Startscreen Icon */
+._2Uo0Z
+{
+background-image: url("https://i.imgur.com/AGK9gsg.png") !important;
+}
+
+/* Black Background Color for Emoji */
+.emoji-panel-body,
+html[dir] ._3tlsa
+{
+background-color: #2d2d2d !important;
+}
+
+html[dir] ._16pld
+{
+background-color: #2d2d2d;
+}
+
+/* Color background searchbar Emoji (Not working) */
+.emoji-search-row
+{
+background-color: #2d2d2d !important;
+}
+
+/* Fix Image placed at the top watching your own profile  */
+html[dir] ._12fSF
+{
+margin-bottom: 25px;
+}
+
+/* In Chat Send and received Checks Color */
+path[fill="#92A58C"]
+{
+fill: white !important;
+}
+
+/* Send and received Checks Color Left Chat Menu */
+path[d="M17.394 5.035l-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0l-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"]
+{
+fill: #FFF !important;
+}
+
+path[d="M12.502 5.035l-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"]
+{
+fill: #FFF !important;
+}
+
+/* Send and received Checks Color Chat */
+path[fill="#92A58C"]
+{
+fill: white !important;
+}
+
+/* Read Checks Color in Chat and Left Chat menu */
+path[fill="#4FC3F7"]
+{
+fill: #00ecff !important;
+}
+
+/* Waiting for send Icon Color in Chat and Left Chat Menu */
+path[d="M9.75 7.713H8.244V5.359a.5.5 0 0 0-.5-.5H7.65a.5.5 0 0 0-.5.5v2.947a.5.5 0 0 0 .5.5h.094l.003-.001.003.002h2a.5.5 0 0 0 .5-.5v-.094a.5.5 0 0 0-.5-.5zm0-5.263h-3.5c-1.82 0-3.3 1.48-3.3 3.3v3.5c0 1.82 1.48 3.3 3.3 3.3h3.5c1.82 0 3.3-1.48 3.3-3.3v-3.5c0-1.82-1.48-3.3-3.3-3.3zm2 6.8a2 2 0 0 1-2 2h-3.5a2 2 0 0 1-2-2v-3.5a2 2 0 0 1 2-2h3.5a2 2 0 0 1 2 2v3.5z"]
+{
+fill: #FFF !important;
+}
+
+path[d="M8.906 10.132h-1.64V7.569c0-.3-.243-.545-.545-.545h-.102c-.3 0-.545.243-.545.545v3.21c0 .3.243.545.545.545h.102l.003-.001.003.001h2.178c.3 0 .545-.243.545-.545v-.102a.544.544 0 0 0-.544-.545zm0-5.732H5.094A3.598 3.598 0 0 0 1.5 7.994v3.812A3.598 3.598 0 0 0 5.094 15.4h3.812a3.598 3.598 0 0 0 3.594-3.594V7.994A3.598 3.598 0 0 0 8.906 4.4zm2.178 7.406a2.178 2.178 0 0 1-2.178 2.178H5.094a2.178 2.178 0 0 1-2.178-2.178V7.994c0-1.203.975-2.178 2.178-2.178h3.812c1.203 0 2.178.975 2.178 2.178v3.812z"]
+{
+fill: #FFF !important;
+}
+
+/* Emoticon GIF Button Color */
+path[d="M21 5H3C1.9 5 1 6 1 7.2v9.6C1 18 1.9 19 3 19h18c1.1 0 2-1 2-2.2V7.2C23 6 22.1 5 21 5zm-10.6 7.7c0 1.8-1.1 2.9-2.9 2.9-2 0-3.2-1.3-3.2-3.4 0-2.1 1.2-3.4 3.1-3.4 1.6 0 2.8.9 2.9 2.3H8.7c-.2-.6-.6-.9-1.3-.9-.9 0-1.5.8-1.5 2 0 1.3.6 2.1 1.5 2.1.7 0 1.3-.4 1.3-1.1v-.1H7.6V12h2.8v.7zm2.8 2.7h-1.6V9h1.6v6.4zm6.1-5.1h-2.8v1.5H19V13h-2.5v2.4h-1.6V9h4.4v1.3z"]
+{
+fill: #BFC3C4 !important;
+fill-opacity: 1.0 !important;
+}
+
+/* Left Chat Menu GIF Icon Color change */
+path[d="M17.306 4H2.694C1.244 4 0 5.244 0 6.694v6.599c0 1.451 1.244 2.694 2.694 2.694h14.611c1.451 0 2.694-1.244 2.694-2.694V6.694C20 5.244 18.756 4 17.306 4zM8.9 10.527c0 1.6-1 2.5-2.6 2.5-1.8 0-2.8-1.1-2.8-3s1.1-3 2.8-3c1.4 0 2.4.8 2.6 2H7.4c-.2-.5-.6-.8-1.2-.8-.8 0-1.3.7-1.3 1.8s.5 1.8 1.4 1.8c.7 0 1.1-.4 1.2-1v-.1H6.2v-1h2.7v.8zm2.6 2.323H10v-5.8h1.5v5.8zm5.2-4.6h-2.4v1.3h2.2v1.1h-2.2v2.168h-1.5V7.05h3.9v1.2z"]
+{
+fill: #FFF !important;
+}
+
+/* Left Chat Menu Photo Icon Color change */
+path[d="M13.822 4.668H7.14l-1.068-1.09a1.068 1.068 0 0 0-.663-.278H3.531c-.214 0-.51.128-.656.285L1.276 5.296c-.146.157-.266.46-.266.675v1.06l-.001.003v6.983c0 .646.524 1.17 1.17 1.17h11.643a1.17 1.17 0 0 0 1.17-1.17v-8.18a1.17 1.17 0 0 0-1.17-1.169zm-5.982 8.63a3.395 3.395 0 1 1 0-6.79 3.395 3.395 0 0 1 0 6.79zm0-5.787a2.392 2.392 0 1 0 0 4.784 2.392 2.392 0 0 0 0-4.784z"]
+{
+fill: #FFF !important;
+}
+
+/* Left Chat Menu Video Icon Color change */
+path[d="M15.243 5.868l-3.48 3.091v-2.27c0-.657-.532-1.189-1.189-1.189H1.945c-.657 0-1.189.532-1.189 1.189v7.138c0 .657.532 1.189 1.189 1.189h8.629c.657 0 1.189-.532 1.189-1.189v-2.299l3.48 3.09v-8.75z"]
+{
+fill: #FFF !important;
+}
+
+/* Left Chat Menu Chat search Icon */
+path[d="M15.009 13.805h-.636l-.22-.219a5.184 5.184 0 0 0 1.256-3.386 5.207 5.207 0 1 0-5.207 5.208 5.183 5.183 0 0 0 3.385-1.255l.221.22v.635l4.004 3.999 1.194-1.195-3.997-4.007zm-4.808 0a3.605 3.605 0 1 1 0-7.21 3.605 3.605 0 0 1 0 7.21z"]
+{
+fill: #FFF !important;
+}
+
+/* Archived chats if empty background color change for logo */
+html[dir] ._2Lev2
+{
+background-color: #171a1b;
+}
+
+/* Groupchat Name Colors */
+._2a1Yw
+{
+Color: white !important;
+}
+
+/* Emoji Searchbar */
+.emoji-search-row
+{
+background: url(data:) !important;
+}
+
+.GRELm
+{
+border: inset;
+border-width: 1px;
+border-color: #4b4b4b;
+background-color: #1c1c1c;
+border-radius: 10px;
+}
+
+.R0lQ6
+{
+background-color: #2d2d2d !important;
+}
+
+.mnt6B
+{
+background-color: #2d2d2d !important;
+}
+
+._1qdni
+{
+background-color: #2d2d2d !important;
+}
+
+._1pJVs
+{
+background-color: #2d2d2d !important;
+}
+
+.input-container
+{
+transition: height .3s ease-in-out;
+}
+
+.emoji-search-row-input
+{
+background-color: #323232;
+}
+
+.media-thumb-spinner.media-thumb
+{
+background-color: #323232 !important;
+}
+
+.media-panel-header
+{
+background-color: #232322 !important;
+padding-bottom: 10px !important;
+}
+
+.media-content
+{
+padding: 0px !important;
+}
+
+path[d="M22.499 6.977c0-.223-.151-.303-.338-.279l-9.911 7.223a.51.51 0 0 1-.673.098L1.831 6.803c-.186-.125-.334-.046-.334.177l.006 2.395c0 .224.151.509.339.632l9.75 7.206c.188.125.49.125.676 0l9.898-7.268a.84.84 0 0 0 .338-.63l-.005-2.338z"]
+{
+fill: #fff !important;
+}
+
+html[dir] ._1qXED
+{
+background-color: rgba(255, 255, 255, 0.4196078431372549);
+}
+
+html[dir=ltr] ._1fkhx
+{
+border-left: 0px solid !important;
+}
+
+input.Gz6Af.copyable-text.selectable-text
+{
+color: white;
+}
+
+html[dir] ._2EYZY
+{
+background-color: #2e2e2e;
+}
+
+/* Watching Profile Picture color fix */
+html[dir=ltr] .IuYNx
+{
+background-color: #323232;
+}
+
+html[dir] ._2YdsD
+{
+background-color: #232322;
+}
+
+html[dir] .ao2gD
+{
+background-color: #232322;
+padding: 0 !important;
+}
+
+path[d="M19.8 5.8l-1.6-1.6-6.2 6.2-6.2-6.2-1.6 1.6 6.2 6.2-6.2 6.2 1.6 1.6 6.2-6.2 6.2 6.2 1.6-1.6-6.2-6.2 6.2-6.2z"]
+{
+fill: #808080 !important;
+}
+
+/* Contact info X Button */
+path[d="M19.1 17.2l-5.3-5.3 5.3-5.3-1.8-1.8-5.3 5.4-5.3-5.3-1.8 1.7 5.3 5.3-5.3 5.3L6.7 19l5.3-5.3 5.3 5.3 1.8-1.8z"]
+{
+fill: #fff !important;
+}
+
+/* Send Message Button Color */
+path[d="M1.101 21.757L23.8 12.028 1.101 2.3l.011 7.912 13.623 1.816-13.623 1.817-.011 7.912z"]
+{
+fill: #fff !important;
+}
+
+/* Dark Border for Left Side Chat Search Input Field */
+html[dir] ._2MSJr
+{
+Border-Color: #4b4b4b;
+}
+
+/* Watching your Profile Menu */
+.drawer-header
+{
+background-color: #4c4c4c !important;
+height: 59px !important;
+}
+
+/* Color Edit Icons your own profile */
+path[d="M3.95 16.7v3.4h3.4l9.8-9.9-3.4-3.4-9.8 9.9zm15.8-9.1c.4-.4.4-.9 0-1.3l-2.1-2.1c-.4-.4-.9-.4-1.3 0l-1.6 1.6 3.4 3.4 1.6-1.6z"]
+{
+fill: #fff !important;
+}
+
+path[d="M3.95 16.7v3.4h3.4l9.8-9.9-3.4-3.4-9.8 9.9zm15.8-9.1c.4-.4.4-.9 0-1.3l-2.1-2.1c-.4-.4-.9-.4-1.3 0l-1.6 1.6 3.4 3.4 1.6-1.6z"]
+{
+fill: #fff !important;
+}
+
+/* Settings Menu Icons */
+path[d="M12 21.7c.9 0 1.7-.8 1.7-1.7h-3.4c0 .9.8 1.7 1.7 1.7zm5.6-5.2v-4.7c0-2.7-1.8-4.8-4.3-5.4v-.6c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3 1.3v.6c-2.5.6-4.3 2.7-4.3 5.4v4.7l-1.7 1.7v.9h14.6v-.9l-1.7-1.7z"]
+{
+fill: #fff !important;
+}
+
+path[d="M4.9 5.9h6.4V4.1H4.9c-1 0-1.8.8-1.8 1.8v6.4h1.8V5.9zm5.3 8l-3.6 4.4h10.7l-2.7-3.6-1.8 2.4-2.6-3.2zm6.2-4c0-.7-.6-1.3-1.3-1.3s-1.3.6-1.3 1.3.6 1.3 1.3 1.3 1.3-.6 1.3-1.3zm2.7-5.8h-6.4v1.8h6.4v6.4h1.8V5.9c0-1-.8-1.8-1.8-1.8zm0 16h-6.4v1.8h6.4c1 0 1.8-.8 1.8-1.8v-6.4h-1.8v6.4zM4.9 13.7H3.1v6.4c0 1 .8 1.8 1.8 1.8h6.4v-1.8H4.9v-6.4z"]
+{
+fill: #fff !important;
+}
+
+path[d="M12 2.8c-5.3 0-9.7 4.3-9.7 9.7s4.3 9.7 9.7 9.7 9.7-4.3 9.7-9.7-4.4-9.7-9.7-9.7zm-7.3 9.7c0-4 3.3-7.3 7.3-7.3 1.6 0 3.1.5 4.3 1.4L6.1 16.8c-.9-1.2-1.4-2.7-1.4-4.3zm7.3 7.3c-1.6 0-3-.5-4.2-1.4L17.9 8.3c.9 1.2 1.4 2.6 1.4 4.2 0 4-3.3 7.3-7.3 7.3z"]
+{
+fill: #fff !important;
+}
+
+path[d="M12 4.7c-4.5 0-8.2 3.7-8.2 8.2s3.7 8.2 8.2 8.2 8.2-3.7 8.2-8.2-3.7-8.2-8.2-8.2zm.8 13.9h-1.6V17h1.6v1.6zm1.7-6.3l-.7.7c-.7.6-1 1.1-1 2.3h-1.6v-.4c0-.9.3-1.7 1-2.3l1-1.1c.3-.2.5-.7.5-1.1 0-.9-.7-1.6-1.6-1.6s-1.6.7-1.6 1.6H8.7c0-1.8 1.5-3.3 3.3-3.3s3.3 1.5 3.3 3.3c0 .8-.4 1.4-.8 1.9z"]
+{
+fill: #fff !important;
+}
+
+/* New Chat Menu Styling Including Button */
+.chat
+{
+background-color: #232222 !important;
+border-bottom: 1px solid #323232 !important;
+}
+
+html[dir] ._1jJLh
+{
+background-color: #8e8e8e;
+}
+
+._1AKfk
+{
+color: #8e8e8e;
+}
+
+/* New Group Styling */
+html[dir] ._1lIXT
+{
+background-color: #232222;
+}
+
+html[dir] ._66JgU
+{
+background-color: #2e2e2e;
+}
+
+._16RnB
+{
+display: inline-block;
+vertical-align: top;
+outline: none;
+height: auto;
+line-height: 22px;
+font-size: 15px;
+color: white !important;
+margin-bottom: 7px !important;
+width: 90% !important;
+}
+
+html[dir] ._16RnB
+{
+padding: 5px;
+border: 1px solid #9da3a5;
+border-radius: 5px;
+margin: 0;
+border-width: 1px;
+background-color: #4c4c4c !important;
+}
+
+html[dir] ._3_3Rs
+{
+background-color: transparent;
+border: none;
+border-bottom: 0px !important;
+}
+
+
+/* Images Marked with star  */
+html[dir] .ZwkQK
+{
+background-color: #232222;
+}
+
+.starred-title-meta
+{
+color: rgba(255, 255, 255, 0.4) !important;
+}
+
+div[class="starred-msg-wrapper hover"]
+{
+background-color: #404040 !important;
+}
+
+/* Chat messages Star Color */
+path[d="M8.3 10.2l-2.5 1.7c-.3.2-.8-.1-.7-.5L6 8.6c.1-.2 0-.4-.2-.5L3.5 6.3c-.4-.3-.2-.8.2-.8l3-.1c.2 0 .3-.1.4-.3l1-2.8c.1-.4.7-.4.8 0l1 2.8c.1.2.2.3.4.3l3 .1c.4 0 .6.5.3.8l-2.4 1.8c-.1.1-.2.3-.2.5l.9 2.9c.1.4-.3.7-.7.5l-2.5-1.7c-.1-.2-.3-.2-.4-.1z"]
+{
+fill: #263238 !important;
+opacity: 0.5 !important;
+}
+
+/* Hide Second scrol bar on Emoji Search */
+.emoji-panel-section
+{
+overflow-y: hidden;
+}
+
+/* Sign-on screen */
+
+html[dir] ._3XczR:before
+{
+background-color: #2d2d2d !important;
+}
+
+html[dir] ._3XczR
+{
+background-color: #8e8e8e;
+background-image: linear-gradient(to bottom, #0a0a0a, #8e8e8e);
+}
+
+html[dir] .fUst5
+{
+background-color: #505050;
+}
+
+html[dir] .wgzvj
+{
+background-color: #0a0a0a;
+}
+
+html[dir] .HnNfm
+{
+background-color: #8e8e8e;
+}
+
+html[dir] .x24vU
+{
+background-color: #8e8e8e;
+}
+
+._1gTKh
+{
+color: #a0a0a0 !important;
+}
+
+._2BXqy
+{
+color: #a0a0a0 !important;
+}
+
+._32gNX
+{
+color: #a0a0a0 !important;
+}
+
+._2FvAY
+{
+color: #a0a0a0;
+}
+
+._3XgX9
+{
+color: #a0a0a0 !important;
+}
+
+/* New message Bubble Color */
+html[dir] .OUeyt
+{
+background-color: #8e8e8e;
+}
+
+/* Color Down Icon Left Side Chat Menu */
+path[d="M4.8 6.1l5.7 5.7 5.7-5.7 1.6 1.6-7.3 7.2-7.3-7.2 1.6-1.6z"]
+{
+fill: #fff !important;
+}
+
+/* White Color for Unknown numbers and names */
+html[dir=ltr] ._3Ye_R
+{
+color: #fff !important;
+}
+
+.RZ7GO
+{
+Color: white !important;
+}
+
+/* Emoticons with black backround*/
+.b59
+{
+background-image: url("https://i.imgur.com/heAavl9.jpg");
+}
+
+.avatar
+{
+background-color: rgba(255, 255, 255, 0) !important;
+}
+
+/* Remove messsage black colors */
+.revoked-outgoing .placeholder-msg
+{
+color: #000 !important;
+}
+
+path[d="M13.628 12.463a5.17 5.17 0 0 0-7.207-7.209l7.207 7.209zm-1.23 1.229L5.19 6.484a5.17 5.17 0 0 0 7.208 7.208zM9.409 2.564a6.91 6.91 0 1 1 0 13.819 6.91 6.91 0 0 1 0-13.819z"]
+{
+fill: #f00 !important;
+}
+
+/* Search Icon After (arrow) */
+path[d="M20 11H7.8l5.6-5.6L12 4l-8 8 8 8 1.4-1.4L7.8 13H20v-2z"]
+{
+fill: #FFF !important;
+}
+
+.compose-box-items-overlay-container
+{
+border-left: 0px !important;
+}
+
+.menu-tabs-marker
+{
+background-color: #b6bbbc !important;
+}
+
+a.selectable-text.invisible-space.copyable-text
+{
+color: white;
+}
+
+html[dir] ._1sGGp._2nFG1
+{
+background-color: #666666;
+}
+
+html[dir] ._3hV1n
+{
+background-color: #8e8e8e;
+}
+
+html[dir] .iHLo1
+{
+background-color: rgba(60, 60, 60, 1);
+}
+
+html[dir=ltr] ._2Cju4._2DNgV
+{
+background: linear-gradient(to right, rgba(209, 236, 188, 0) 0%, #4c4c4c 50%);
+}
+
+._1VD7W
+{
+background-color: #8e8e8e;
+border-color: #8e8e8e;
+}
+
+path[d="M106.251.5C164.653.5 212 47.846 212 106.25S164.653 212 106.25 212C47.846 212 .5 164.654.5 106.25S47.846.5 106.251.5z"]
+{
+fill: #8e8e8e !important;
+}
+
+path[d="M173.561 171.615a62.767 62.767 0 0 0-2.065-2.955 67.7 67.7 0 0 0-2.608-3.299 70.112 70.112 0 0 0-3.184-3.527 71.097 71.097 0 0 0-5.924-5.47 72.458 72.458 0 0 0-10.204-7.026 75.2 75.2 0 0 0-5.98-3.055c-.062-.028-.118-.059-.18-.087-9.792-4.44-22.106-7.529-37.416-7.529s-27.624 3.089-37.416 7.529c-.338.153-.653.318-.985.474a75.37 75.37 0 0 0-6.229 3.298 72.589 72.589 0 0 0-9.15 6.395 71.243 71.243 0 0 0-5.924 5.47 70.064 70.064 0 0 0-3.184 3.527 67.142 67.142 0 0 0-2.609 3.299 63.292 63.292 0 0 0-2.065 2.955 56.33 56.33 0 0 0-1.447 2.324c-.033.056-.073.119-.104.174a47.92 47.92 0 0 0-1.07 1.926c-.559 1.068-.818 1.678-.818 1.678v.398c18.285 17.927 43.322 28.985 70.945 28.985 27.678 0 52.761-11.103 71.055-29.095v-.289s-.619-1.45-1.992-3.778a58.346 58.346 0 0 0-1.446-2.322zM106.002 125.5c2.645 0 5.212-.253 7.68-.737a38.272 38.272 0 0 0 3.624-.896 37.124 37.124 0 0 0 5.12-1.958 36.307 36.307 0 0 0 6.15-3.67 35.923 35.923 0 0 0 9.489-10.48 36.558 36.558 0 0 0 2.422-4.84 37.051 37.051 0 0 0 1.716-5.25c.299-1.208.542-2.443.725-3.701.275-1.887.417-3.827.417-5.811s-.142-3.925-.417-5.811a38.734 38.734 0 0 0-1.215-5.494 36.68 36.68 0 0 0-3.648-8.298 35.923 35.923 0 0 0-9.489-10.48 36.347 36.347 0 0 0-6.15-3.67 37.124 37.124 0 0 0-5.12-1.958 37.67 37.67 0 0 0-3.624-.896 39.875 39.875 0 0 0-7.68-.737c-21.162 0-37.345 16.183-37.345 37.345 0 21.159 16.183 37.342 37.345 37.342z"]
+{
+fill: #c8c8c8 !important;
+}
+
+path[d="M105.946.25C164.318.25 211.64 47.596 211.64 106s-47.322 105.75-105.695 105.75C47.571 211.75.25 164.404.25 106S47.571.25 105.946.25z"]
+{
+fill: #8e8e8e !important;
+}
+
+path[d="M61.543 100.988c8.073 0 14.246-6.174 14.246-14.246s-6.173-14.246-14.246-14.246-14.246 6.173-14.246 14.246 6.174 14.246 14.246 14.246zm8.159 17.541a48.192 48.192 0 0 1 8.545-6.062c-4.174-2.217-9.641-3.859-16.704-3.859-21.844 0-28.492 15.67-28.492 15.67v8.073h26.181l.105-.248c.303-.713 3.164-7.151 10.365-13.574zm80.755-9.921c-6.854 0-12.21 1.543-16.336 3.661a48.223 48.223 0 0 1 8.903 6.26c7.201 6.422 10.061 12.861 10.364 13.574l.105.248h25.456v-8.073c-.001 0-6.649-15.67-28.492-15.67zm0-7.62c8.073 0 14.246-6.174 14.246-14.246s-6.173-14.246-14.246-14.246-14.246 6.173-14.246 14.246 6.173 14.246 14.246 14.246zm-44.093 3.21a23.21 23.21 0 0 0 4.464-.428c.717-.14 1.419-.315 2.106-.521 1.03-.309 2.023-.69 2.976-1.138a21.099 21.099 0 0 0 3.574-2.133 20.872 20.872 0 0 0 5.515-6.091 21.283 21.283 0 0 0 2.121-4.823 22.16 22.16 0 0 0 .706-3.193c.16-1.097.242-2.224.242-3.377s-.083-2.281-.242-3.377a22.778 22.778 0 0 0-.706-3.193 21.283 21.283 0 0 0-3.272-6.55 20.848 20.848 0 0 0-4.364-4.364 21.099 21.099 0 0 0-3.574-2.133 21.488 21.488 0 0 0-2.976-1.138 22.33 22.33 0 0 0-2.106-.521 23.202 23.202 0 0 0-4.464-.428c-12.299 0-21.705 9.405-21.705 21.704 0 12.299 9.406 21.704 21.705 21.704zM145.629 131a36.739 36.739 0 0 0-1.2-1.718 39.804 39.804 0 0 0-3.367-3.967 41.481 41.481 0 0 0-3.442-3.179 42.078 42.078 0 0 0-5.931-4.083 43.725 43.725 0 0 0-3.476-1.776c-.036-.016-.069-.034-.104-.05-5.692-2.581-12.849-4.376-21.746-4.376-8.898 0-16.055 1.795-21.746 4.376-.196.089-.379.185-.572.276a43.316 43.316 0 0 0-3.62 1.917 42.32 42.32 0 0 0-5.318 3.716 41.501 41.501 0 0 0-3.443 3.179 40.632 40.632 0 0 0-3.366 3.967c-.452.61-.851 1.186-1.2 1.718-.324.493-.6.943-.841 1.351l-.061.101a27.96 27.96 0 0 0-.622 1.119c-.325.621-.475.975-.475.975v11.692h82.53v-11.692s-.36-.842-1.158-2.195a35.417 35.417 0 0 0-.842-1.351z"]
+{
+fill: #c8c8c8 !important;
+}
+
+html[dir] ._3qlW9:after
+{
+border-top: 6px solid #666666;
+}
+
+._3qlW9 a
+{
+color: #666666;
+}
+
+path[d="M152.168 54.014l-11.66 4.364v95.453l11.744 4.161-.084-103.978zM49.742 121.662l18.892 6.698c0 .14-.021.274-.021.414 0 14.507 11.782 26.269 26.318 26.269 8.39 0 15.849-3.935 20.669-10.039l18.328 6.495v-90.66L49.742 92.355v29.307zm58.56 20.755c-3.455 3.371-8.169 5.458-13.371 5.458-9.818 0-17.921-7.419-19.005-16.934l32.376 11.476z"]
+{
+fill: #c8c8c8 !important;
+}
+
+
+/* 02/10/2018 fixes */ 
+html[dir] ._2bXVy
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._3oju3
+{
+background-color: #2e2e2e;
+}
+
+path[d="M9.153 11.603c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962zm-3.204 1.362c-.026-.307-.131 5.218 6.063 5.551 6.066-.25 6.066-5.551 6.066-5.551-6.078 1.416-12.129 0-12.129 0zm11.363 1.108s-.669 1.959-5.051 1.959c-3.505 0-5.388-1.164-5.607-1.959 0 0 5.912 1.055 10.658 0zM11.804 1.011C5.609 1.011.978 6.033.978 12.228s4.826 10.761 11.021 10.761S23.02 18.423 23.02 12.228c.001-6.195-5.021-11.217-11.216-11.217zM12 21.354c-5.273 0-9.381-3.886-9.381-9.159s3.942-9.548 9.215-9.548 9.548 4.275 9.548 9.548c-.001 5.272-4.109 9.159-9.382 9.159zm3.108-9.751c.795 0 1.439-.879 1.439-1.962s-.644-1.962-1.439-1.962-1.439.879-1.439 1.962.644 1.962 1.439 1.962z"]
+{
+fill: #FFF !important;
+}
+
+html[dir] ._3AwwN
+{
+background-color: #2f2f2f;
+}
+
+html[dir] ._3auIg
+{
+background-color: #303030;
+}
+
+html[dir] .gQzdc
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._2EXPL._1f1zm
+{
+background-color: #303030;
+}
+
+html[dir] ._2EXPL
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._2EXPL:hover, 
+html[dir] ._2EXPL._3df_h
+{
+background-color: #303030;
+}
+
+html[dir] ._2jVLL
+{
+background-color: #666666;
+}
+
+html[dir] ._1GX8_
+{
+background-color: #303030;
+}
+
+._3Bxar
+{
+color: rgb(142, 142, 142);
+font-size: 12px;
+}
+
+._1wjpf
+{
+color: #FFF;
+}
+
+._1bX-5
+{
+color: white !important;
+}
+
+html[dir] ._3j7s9
+{
+border-top: 0px solid #f2f2f2 !important;
+}
+
+html[dir] ._2EXPL._1f1zm:after
+{
+border-top-color: #8e8e8e !important;
+}
+
+html[dir] ._1NrpZ
+{
+background-color: #666 !important;
+}
+
+._1FroB
+{
+height: auto;
+}
+
+html[dir] ._1FroB
+{
+background-color: #303030;
+}
+
+._2sNbV
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._1CSx9
+{
+background-color: #303030;
+}
+
+._1xGbt
+{
+color: #7d7d7d;
+}
+
+html[dir=ltr] ._3AwwN
+{
+border-left: 1px solid #1c1c1c;
+}
+
+._25Ooe
+{
+color: #8e8e8e;
+}
+
+html[dir] .wDFKR
+{
+background-color: #303030;
+}
+
+html[dir=ltr] .IuYNx
+{
+background-color: #1d1d1d;
+}
+
+html[dir] ._2Mg6D .CzI8E
+{
+border-bottom: 2px solid #696969;
+}
+
+._7HWvs
+{
+color: rgb(105, 105, 105);
+}
+
+html[dir] ._3b2Cf
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._3b2Cf:before
+{
+background-color: #8e8e8e;
+}
+
+._2Mvo8
+{
+color: #8e8e8e;
+text-transform: none;
+}
+
+html[dir] ._1XwnX,
+html[dir] ._3pkkz
+{
+background-color: #2f2f2f;
+}
+
+html[dir] ._2xOyO
+{
+background-color: #1e1e1e;
+}
+
+html[dir] ._2JD5b
+{
+background-color: #303030;
+}
+
+html[dir] ._3Qh77
+{
+border-top: solid 1px #666666;
+}
+
+html[dir] ._12oAB
+{
+color: #FFF;
+}
+
+html[dir] ._3_R6X
+{
+background-color: rgb(48, 48, 48);
+}
+
+._1iei9
+{
+opacity: 0.5;
+}
+
+html[dir] ._39uZ2
+{
+opacity: 0.5;
+}
+
+html[dir] ._298R6
+{
+background-color: #8e8e8e;
+}
+
+html[dir] ._1WliW
+{
+background-color: rgba(223, 229, 231, 0);
+}
+
+.message-out .tail-container.highlight
+{
+background-image: url(https://i.imgur.com/YdAeDnp.png);
+}
+
+.message-out.tail-override-left .tail-container
+{
+background-image: url(https://i.imgur.com/lPizeFP.png);
+}
+
+.message-out .tail-container
+{
+background-image: url(https://i.imgur.com/YdAeDnp) !important;
+}
+
+.message-in .tail-container.highlight
+{
+background-image: url(data:) !important;
+}
+
+.message-in .tail-container, .message-in.tail-override-right .tail-container, .message-out.tail-override-right .tail-container, .message-in.tail-override-left .tail-container
+{
+background-image: url(data:);
+}
+
+path[d="M10.2 3H2.5C1.7 3 1 3.7 1 4.5v10.1c0 .7.7 1.4 1.5 1.4h7.7c.8 0 1.5-.7 1.5-1.5v-10C11.6 3.7 11 3 10.2 3zm-2.6 9.7H3.5v-1.3h4.1v1.3zM9.3 10H3.5V8.7h5.8V10zm0-2.7H3.5V6h5.8v1.3z"]
+{
+fill: #FFF !important;
+}
+
+.capture-footer
+{
+background-color: rgba(224, 224, 224, 0);
+}
+
+html[dir] ._3gUiM
+{
+background-color: rgba(255, 255, 255, 0.60);
+}
+
+span.matched-mention.selectable-text.select-all.invisible-space.copyable-text
+{
+color: #FFF;
+}
+
+.message-out .matched-mention .at-symbol
+{
+color: #FFF;
+}
+
+html[dir] ._2lwig._2nFG1
+{
+background-color: #303030;
+}
+
+._3QqKs
+{
+color: rgba(255, 255, 255, 0.6);
+}
+
+html[dir=ltr] ._2Cju4.jZ4tp
+{
+background: linear-gradient(to right, rgba(242, 242, 242, 0) 0%, #8e8e8e3b 50%);
+}
+
+html[dir] ._28ZV1
+{
+background-color: #303030;
+}
+
+html[dir] ._2bXVy
+{
+border-color: rgba(65, 65, 65, 1) !important;
+}
+
+html[dir] ._1VeYA ._3PmkG, html[dir] .C534L ._3PmkG
+{
+background-color: rgba(100, 100, 100, 0.77);
+}
+
+html[dir] ._1iJeo
+{
+background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+html[dir] ._3nuGo
+{
+background-color: #303030;
+}
+
+html[dir] ._1ypOz
+{
+background-color: #1e1e1e;
+}
+
+._1upWv
+{
+color: #000000 !important;
+}
+
+html[dir] .Zq3Mc
+{
+color: #262626;
+background-color: rgba(200, 200, 200, 0.5);
+text-shadow: 0 0px 0 rgba(30, 30, 30, 0.4);
+}
+
+._12xX7
+{
+background-color: #8e8e8e !important;
+}
+
+html[dir] .Sbkt2
+{
+background-color: #2d2d2d;
+}
+
+html[dir] .QQnvT
+{
+background-color: #2e2e2e;
+}
+
+html[dir] ._17b-C
+{
+background-color: #1c1c1c;
+}
+
+._17b-C
+{
+border: inset;
+border-width: 1px;
+border-color: #4b4b4b;
+border-radius: 10px;
+}
+
+input.QSZxm.copyable-text.selectable-text
+{
+color: #fff;
+}
+
+.b332w
+{
+color: #ffffff;
+}
+
+html[dir] ._3gUiM._6vIwv
+{
+background-color: #282828;
+}
+
+html[dir] ._1CnF3
+{
+background-color: #2e2e2e;
+color: white;
+}
+
+html[dir] .PNlAR
+{
+background-color: #8e8e8e;
+}
+
+html[dir] .PNlAR:hover
+{
+background-color: #757575;
+}
+
+html[dir] .PNlAR
+{
+padding: 10px 3px !important;
+}
+
+._1qi0v
+{
+color: #8e8e8e;
+}
+
+.AhLfF
+{
+color: #8e8e8e;
+}
+
+._2Qffr
+{
+color: #8e8e8e;
+}
+
+._2548U
+{
+color: #FFF;
+}
+
+html[dir] ._2ByZq
+{
+background-color: #2d2d2d;
+}
+
+html[dir] ._2NQtS
+{
+background-color: #8e8e8e;
+}
+
+html[dir] ._2vjPO
+{
+background-color: #1c1c1c;
+}
+
+._24k3z
+{
+border-width: 1px;
+border-color: #4b4b4b;
+border-radius: 25px;
+background-color: #202020;
+border-style: solid;
+}
+
+._2vjPO
+{
+background-color: #2e2e2e !important;
+}
+
+html[dir] ._2rR_l
+{
+background-color: #2e2e2e;
+}
+
+html[dir] .elDYX
+{
+background-color: #5a5a5a;
+}
+
+html[dir] ._2mVeK
+{
+color: white;
+}
+
+html[dir] ._2U_Zc:before
+{
+background-color: rgb(86, 86, 86);
+}
+
+html[dir] .elDYX
+{
+background-color: rgba(60, 60, 60, 1);
+}
+
+._1rQYj
+{
+color: #ffffff;
+text-decoration: underline;
+}
+
+path[d="M10.7 32.8l.6.3c2.5 1.5 5.3 2.2 8.1 2.2 8.8 0 16-7.2 16-16 0-4.2-1.7-8.3-4.7-11.3s-7-4.7-11.3-4.7c-8.8 0-16 7.2-15.9 16.1 0 3 .9 5.9 2.4 8.4l.4.6-1.6 5.9 6-1.5z"]
+{
+fill: rgba(0, 0, 0, 0) !important;
+}
+
+html[dir=ltr] ._2U5s1
+{
+color: white;
+}
+
+html[dir] ._2EXPL:hover:after, html[dir] ._2EXPL._3df_h:after, html[dir] ._2EXPL._1f1zm:after
+{
+border-top: 0px;
+}
+
+html[dir] ._1OnaQ
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._2FsQ8
+{
+background-color: #303030;
+}
+
+._18dOq
+{
+color: #000000;
+}
+
+path[d="M12.629 12.463a5.17 5.17 0 0 0-7.208-7.209l7.208 7.209zm-1.23 1.229L4.191 6.484a5.17 5.17 0 0 0 7.208 7.208zM8.41 2.564a6.91 6.91 0 1 1 0 13.82 6.91 6.91 0 0 1 0-13.82z"]
+{
+fill: #f00 !important;
+}
+
+path[d="M12 20.664a9.163 9.163 0 0 1-6.521-2.702.977.977 0 0 1 1.381-1.381 7.269 7.269 0 0 0 10.024.244.977.977 0 0 1 1.313 1.445A9.192 9.192 0 0 1 12 20.664zm7.965-6.112a.977.977 0 0 1-.944-1.229 7.26 7.26 0 0 0-4.8-8.804.977.977 0 0 1 .594-1.86 9.212 9.212 0 0 1 6.092 11.169.976.976 0 0 1-.942.724zm-16.025-.39a.977.977 0 0 1-.953-.769 9.21 9.21 0 0 1 6.626-10.86.975.975 0 1 1 .52 1.882l-.015.004a7.259 7.259 0 0 0-5.223 8.558.978.978 0 0 1-.955 1.185z"],
+path[d="M19.005 3.175H4.674C3.642 3.175 3 3.789 3 4.821V21.02l3.544-3.514h12.461c1.033 0 2.064-1.06 2.064-2.093V4.821c-.001-1.032-1.032-1.646-2.064-1.646zm-4.989 9.869H7.041V11.1h6.975v1.944zm3-4H7.041V7.1h9.975v1.944z"],
+path[d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"],
+path[d="M15.9 14.3H15l-.3-.3c1-1.1 1.6-2.7 1.6-4.3 0-3.7-3-6.7-6.7-6.7S3 6 3 9.7s3 6.7 6.7 6.7c1.6 0 3.2-.6 4.3-1.6l.3.3v.8l5.1 5.1 1.5-1.5-5-5.2zm-6.2 0c-2.6 0-4.6-2.1-4.6-4.6s2.1-4.6 4.6-4.6 4.6 2.1 4.6 4.6-2 4.6-4.6 4.6z"],
+path[d="M1.816 15.556v.002c0 1.502.584 2.912 1.646 3.972s2.472 1.647 3.974 1.647a5.58 5.58 0 0 0 3.972-1.645l9.547-9.548c.769-.768 1.147-1.767 1.058-2.817-.079-.968-.548-1.927-1.319-2.698-1.594-1.592-4.068-1.711-5.517-.262l-7.916 7.915c-.881.881-.792 2.25.214 3.261.959.958 2.423 1.053 3.263.215l5.511-5.512c.28-.28.267-.722.053-.936l-.244-.244c-.191-.191-.567-.349-.957.04l-5.506 5.506c-.18.18-.635.127-.976-.214-.098-.097-.576-.613-.213-.973l7.915-7.917c.818-.817 2.267-.699 3.23.262.5.501.802 1.1.849 1.685.051.573-.156 1.111-.589 1.543l-9.547 9.549a3.97 3.97 0 0 1-2.829 1.171 3.975 3.975 0 0 1-2.83-1.173 3.973 3.973 0 0 1-1.172-2.828c0-1.071.415-2.076 1.172-2.83l7.209-7.211c.157-.157.264-.579.028-.814L11.5 4.36a.572.572 0 0 0-.834.018l-7.205 7.207a5.577 5.577 0 0 0-1.645 3.971z"],
+path[d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"]
+{
+fill: #FFF !important;
+opacity: 0.6 !important;
+fill-opacity: 0.6 !important;
+}
+
+path[d="M6.487 3.305A4.659 4.659 0 0 0 1.8 7.992c0 3.482 4.687 8.704 4.687 8.704s4.687-5.222 4.687-8.704a4.659 4.659 0 0 0-4.687-4.687zm0 6.36c-.937 0-1.674-.737-1.674-1.674s.736-1.674 1.674-1.674 1.674.737 1.674 1.674c0 .938-.737 1.674-1.674 1.674z"]
+{
+fill: #FFF !important;
+}
+
+#pane-side > div > div > div > div:nth-child(1) > div > div > div._3j7s9 > div._1AwDx > div._itDl > span > span > span
+{
+color: #FFF !important;
+}
+
+path[d="M11.999 14.942c2.001 0 3.531-1.53 3.531-3.531V4.35c0-2.001-1.53-3.531-3.531-3.531S8.469 2.35 8.469 4.35v7.061c0 2.001 1.53 3.531 3.53 3.531zm6.238-3.53c0 3.531-2.942 6.002-6.237 6.002s-6.237-2.471-6.237-6.002H3.761c0 4.001 3.178 7.297 7.061 7.885v3.884h2.354v-3.884c3.884-.588 7.061-3.884 7.061-7.885h-2z"]
+{
+fill: #FFF !important;
+}
+
+html[dir=ltr] .message-in .tail-container, html[dir=ltr] .message-in.tail-override-right .tail-container, html[dir=ltr] .message-out.tail-override-right .tail-container, html[dir=ltr] .message-in.tail-override-left .tail-container
+{
+background-image: url(data:);
+}
+
+html[dir=ltr] .tail.message-in
+{
+border-top-left-radius: 7.5px;
+}
+
+html[dir] .MS-DH._2-mCk
+{
+background-color: #616161;
+}
+
+html[dir] .MS-DH._1baOM
+{
+background-color: #505050;
+}
+
+html[dir] .YAPQk
+{
+background-color: #404040;
+}
+
+div[class="_2bXVy"]
+{
+border-color: rgba(65, 65, 65, 1) !important;
+}
+
+path[d="M6.844 9.975a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5.759 3.087c-.884-.845-3.136-1.587-5.721-1.587-2.584 0-4.739.742-5.622 1.587-.203.195-.26.464-.26.746v1.679h12v-1.679c0-.282-.193-.552-.397-.746z"]
+{
+fill: #FFF !important;
+}
+
+._3PWNn
+{
+background-color: #8e8e8e;
+}
+
+html[dir] ._3v_lq
+{
+background-color: #727272;
+}
+
+html[dir] ._3v_lq.j5Hcb
+{
+background-color: #9a9a9a;
+}
+
+html[dir] .Uukb4
+{
+background-color: #3fff00;
+}
+
+.matched-text
+{
+color: #3fff00;
+font-weight: bold;
+}
+
+html[dir] ._2EXPL._13iu_
+{
+background-color: #8e8e8e;
+}
+
+path[d="M6.8 9.8c.7-.1 1.2-.7 1.1-1.4-.1-.6-.5-1.1-1.1-1.1-.7 0-1.2.7-1.1 1.4 0 .6.5 1 1.1 1.1zM13.9 11.6c-1.4.2-2.9.3-4.4.4-1.5 0-2.9-.1-4.4-.4-.2 0-.4.1-.4.3v.2c.9 1.8 2.7 2.9 4.7 3 2-.1 3.8-1.2 4.8-3 .1-.2 0-.4-.1-.5h-.2zm-4.1 2c-2.3 0-3.5-.8-3.7-1.4 2.3.4 4.6.4 6.9 0 0 .1-.4 1.4-3.2 1.4zM12.2 9.8c.7-.1 1.2-.7 1.1-1.4-.1-.6-.5-1.1-1.1-1.1-.7 0-1.2.7-1.1 1.4.1.6.5 1 1.1 1.1z"],
+path[d="M9.5 1.7C4.8 1.7 1 5.5 1 10.2s3.8 8.5 8.5 8.5 8.5-3.8 8.5-8.5-3.8-8.5-8.5-8.5zm0 15.9c-4.1 0-7.4-3.3-7.4-7.4s3.3-7.4 7.4-7.4 7.4 3.3 7.4 7.4-3.3 7.4-7.4 7.4z"],
+path[d="M12.174 4.661l-.836-.835L8 7.165 4.661 3.826l-.835.835L7.165 8l-3.339 3.339.835.835L8 8.835l3.338 3.339.836-.835L8.835 8l3.339-3.339z"]
+{
+fill: #FFF !important;
+}
+
+._2rXhY
+{
+color: rgba(255, 255, 255, 0.5);
+}
+
+._2ArBI
+{
+color: white;
+}
+
+html[dir=ltr] ._1JbDr
+{
+left: 0;
+border-left: 1px solid #2f2f2f;
+}
+
+html[dir] .YbzIC
+{
+background-color: #2e2e2e;
+}
+
+html[dir] .YGHyX
+{
+background-color: #8e8e8e;
+}
+
+html[dir] ._1qUma
+{
+background-color: #2d2d2d;
+}
+
+html[dir] ._1Wbpa
+{
+background-color: #8e8e8e;
+}
+
+html[dir] .rstyJ
+{
+background-color: #2f2f2f;
+}
+
+html[dir] ._3SX5f
+{
+background-color: #2f2f2f;
+}
+
+html[dir] .rstyJ
+{
+background-color: #2f2f2f;
+padding-top: 5px;
+border-top: 1px #8e8e8e solid;
+border-bottom: 1px #8e8e8e solid;
+padding-bottom: 5px;
+}
+
+.Y9G3K
+{
+color: rgb(142, 142, 142);
+}
+
+path[d="M19.2 4H4.8C3.8 4 3 4.8 3 5.8V22l3.6-3.6h12.6c1 0 1.8-.8 1.8-1.8V5.8c0-1-.8-1.8-1.8-1.8zm0 12.6H6.6l-1.8 1.8V5.8h14.4v10.8z"],
+path[d="M11.1 16.8l-4.4 3.1c-.7.5-1.5-.1-1.3-.9L7 13.9c.1-.3 0-.7-.3-.9L2.4 9.7c-.6-.4-.3-1.4.5-1.4l5.4-.1c.3 0 .6-.2.7-.6l1.8-5.1c.2-.7 1.3-.7 1.5 0l1.8 5.1c.1.3.4.5.7.5l5.4.1c.8 0 1.1 1 .5 1.4L16.4 13c-.3.2-.4.5-.3.9l1.6 5.2c.2.7-.6 1.3-1.2.9L12 16.8c-.3-.2-.6-.2-.9 0z"],
+path[d="M18.9 10.3h-4V4.4H9v5.9H5l6.9 6.9 7-6.9zM5.1 19.2v2H19v-2H5.1z"],
+path[d="M19.8 5.8l-1.6-1.6-6.2 6.2-6.2-6.2-1.6 1.6 6.2 6.2-6.2 6.2 1.6 1.6 6.2-6.2 6.2 6.2 1.6-1.6-6.2-6.2 6.2-6.2z"],
+path[d="M14.278 4.813c0-.723.873-1.085 1.383-.574l6.045 6.051a.81.81 0 0 1 0 1.146l-6.045 6.051a.81.81 0 0 1-1.383-.574v-2.732c-5.096 0-8.829 1.455-11.604 4.611-.246.279-.702.042-.602-.316 1.43-5.173 4.925-10.004 12.206-11.045V4.813z"],
+path[d="M6 18c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V6H6v12zM19 3h-3.5l-1-1h-5l-1 1H5v2h14V3z"],
+path[d="M14.7 12c2 0 3.6-1.6 3.6-3.6s-1.6-3.6-3.6-3.6-3.6 1.6-3.6 3.6 1.6 3.6 3.6 3.6zm-8.1-1.8V7.5H4.8v2.7H2.1V12h2.7v2.7h1.8V12h2.7v-1.8H6.6zm8.1 3.6c-2.4 0-7.2 1.2-7.2 3.6v1.8H22v-1.8c-.1-2.4-4.9-3.6-7.3-3.6z"],
+path[d="M11.52 9.206c0-1.4-.778-2.567-1.944-3.111v1.711L11.52 9.75v-.544zm1.945 0c0 .7-.156 1.4-.389 2.022l1.167 1.167c.544-.933.778-2.1.778-3.267 0-3.344-2.333-6.144-5.444-6.844v1.633c2.255.778 3.888 2.8 3.888 5.289zm-11.433-7L1.02 3.217l3.656 3.656H1.02v4.667h3.111l3.889 3.889v-5.211l3.344 3.344c-.544.389-1.089.7-1.789.933v1.633a6.64 6.64 0 0 0 2.878-1.4l1.556 1.556 1.011-1.011-7-7-5.988-6.067zm5.988.778L6.387 4.617 8.02 6.25V2.984z"],
+path[d="M9 17.2l-4-4-1.4 1.3L9 19.9 20.4 8.5 19 7.1 9 17.2z"],
+path[d="M12 4l1.4 1.4L7.8 11H20v2H7.8l5.6 5.6L12 20l-8-8 8-8z"],
+path[d="M20.7 9.7c.6-.5.3-1.4-.5-1.4l-5.4-.1c-.3 0-.6-.2-.7-.5l-1.8-5.1c-.2-.7-1.3-.7-1.5 0L9.3 7l7.8 5.5 3.6-2.8zm1.2 7.9l-.1-.1L3.2 4.6l-.9 1.2 3.4 2.4-2.8.1c-.8 0-1.1 1-.5 1.4L6.7 13c.3.2.4.5.3.9L5.4 19c-.2.7.6 1.3 1.2.9l4.4-3.1c.3-.2.6-.2.9 0l4.4 3.1c.6.4 1.4-.2 1.2-.9l-.9-3.1 4.3 3 1-1.3z"],
+path[d="M7 2.33a5.983 5.983 0 0 0-6 5.96V13c-.02 1.09.85 1.98 1.94 2H5V9.67H2.33V8.33c0-2.58 2.09-4.67 4.67-4.67s4.67 2.09 4.67 4.67v1.33H9v5.33h2c1.09.02 1.98-.85 2-1.94V8.33c.01-3.3-2.66-5.99-5.96-6H7z"]
+{
+fill: #FFF !important;
+opacity: 0.6 !important;
+}
+
+html[dir] ._1iJeo,
+html[dir] ._1sGGp._2nFG1
+{
+background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+html[dir] ._3FAwT
+{
+background: #222222;
+}
+
+html[dir] ._1CRb5
+{
+background-color: #1c1c1c;
+}
+
+._1AwDx
+{
+color: rgba(255, 255, 255, 0.6);
+}
+
+#image-Layer_1 > g > path:nth-child(1),
+#image-Layer_1 > g > path:nth-child(2),
+#image-Layer_1 > g > path:nth-child(3),
+#image-Layer_1 > g > path:nth-child(4),
+#image-Layer_1 > g > path:nth-child(5),
+#image-Layer_1 > g > path:nth-child(6),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(1),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(2),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(3),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(4),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(5),
+#main > header > div._1i0-u > div > div.rAUz7 > span > div > div > ul > li:nth-child(2) > button > span > svg > g > path:nth-child(6),
+#document-Layer_1 > g > path:nth-child(1),
+#document-Layer_1 > g > path:nth-child(2),
+#contact-Layer_1 > g > path:nth-child(1),
+#contact-Layer_1 > g > path:nth-child(2)
+{
+fill: #5F5F5F !important;
+}
+
+html[dir] ._3gUiM
+{
+background-color: rgba(114, 114, 114, 0.7);
+}
+
+html[dir] ._1o1sm._2nOMz
+{
+background-color: rgba(186, 186, 186, 0.05);
+}
+
+._1bcjS
+{
+color: rgba(211, 211, 211, 0.4);
+}
+
+._1qi0v:hover
+{
+color: #000000;
+}
+
+html[dir] ._2HBs4
+{
+background-color: #202020;
+}
+
+html[dir] ._3fOoY
+{
+background-color: #1c1c1c;
+}
+
+html[dir] ._2EXPL._13iu_:hover
+{
+background-color: #a0a0a0;
+}
+
+html[dir] ._3UUn3
+{
+background-color: #303030;
+}
+
+#startup, #initial_startup
+{
+background-color: #1c1c1c;
+}
+
+/* Audio Icon Fix */
+path[d="M0 0h55v55H0V0z"]
+{
+fill: #606060 !important;
+}
+
+path[d="M27.5 16c-5.6 0-10 4.4-10 10v7.8c0 1.9 1.4 3.3 3.3 3.3h3.3v-8.9h-4.4V26c0-4.3 3.4-7.8 7.8-7.8s7.8 3.4 7.8 7.8v2.2h-4.4v8.9h3.3c1.9 0 3.3-1.4 3.3-3.3V26c0-5.6-4.4-10-10-10z"]
+{
+fill: #303030 !important;
+}
+}
