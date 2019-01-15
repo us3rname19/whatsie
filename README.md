@@ -5,8 +5,7 @@ be updated.
 
 # Whatsie
 
-A simple & beautiful desktop client for WhatsApp Web. Chat without distractions on OS X, 
-Windows and Linux. Not affiliated with WhatsApp or Facebook. This is NOT an official product.
+A simple & beautiful desktop client for WhatsApp Web. Chat without distractions on Linux. Not affiliated with WhatsApp or Facebook. This is NOT an official product.
 
 ## Default them dark:
 
