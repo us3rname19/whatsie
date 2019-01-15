@@ -8,13 +8,13 @@ be updated.
 A simple & beautiful desktop client for WhatsApp Web. Chat without distractions on OS X, 
 Windows and Linux. Not affiliated with WhatsApp or Facebook. This is NOT an official product.
 
-##Default them dark:
+## Default them dark:
 
 ![screenshot](https://user-images.githubusercontent.com/43719011/51189716-52357000-192c-11e9-885e-533b91cc08d3.png)
 
 
-##How to install
+## How to install
 
-###Linux
-###Ubuntu, Debian 8+ (amd64.deb package):
+### Linux
+### Ubuntu, Debian 8+ (amd64.deb package):
 
