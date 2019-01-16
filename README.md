@@ -7,9 +7,9 @@ be updated.
 
 A simple & beautiful desktop client for WhatsApp Web. Chat without distractions on Linux. Not affiliated with WhatsApp or Facebook. This is NOT an official product.
 
-## Default them dark:
+## Default dark theme:
 
-![screenshot](https://user-images.githubusercontent.com/43719011/51189716-52357000-192c-11e9-885e-533b91cc08d3.png)
+![123](https://user-images.githubusercontent.com/43719011/51248461-ec082600-19db-11e9-8883-e677753c6db3.png)
 
 
 ## How to install
