@@ -17,6 +17,7 @@ A simple & beautiful desktop client for WhatsApp Web. Chat without distractions 
 ### Linux
 ### Ubuntu, Debian 8+ (amd64.deb package):
 
+
 ```bash
 
 wget https://github.com/us3rname19/whatsie/releases/download/v2.1.0/whatsie-2.1.0-linux-amd64.deb
@@ -26,3 +27,4 @@ sudo dpkg -i whatsie-2.1.0-linux-amd64.deb
 whatsie
 
 ```
+
