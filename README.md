@@ -1,3 +1,5 @@
+#Does not work any more !!!
+
 Whatsie is not available anymore. Please use the official client. The following is a final version of the abandoned, 
 unofficial WhatsApp Web client Whatsie. This project is/was not affiliated with WhatsApp Inc. in any way. It will not 
 be updated.
